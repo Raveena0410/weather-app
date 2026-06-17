@@ -1,10 +1,10 @@
 const form=document.querySelector(".weather");
 const city=document.querySelector(".city");
-const card=document.querySelector(".card")
-const apikey="00478a64c7121ec6bf20455b8b2f24b3"
-form.addEventListener("submit",async  eve =>{
-    eve.preventDefault();
-    const cit=city.value;
+// const card=document.querySelector(".card")
+// const apikey="00478a64c7121ec6bf20455b8b2f24b3"
+// form.addEventListener("submit",async  eve =>{
+//     eve.preventDefault();
+//     const cit=city.value;
     if(cit){
         try{
             const wt=await getWeatherData(cit);
